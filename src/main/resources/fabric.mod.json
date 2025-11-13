@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "benschristmasmod",
+	"version": "${version}",
+	"name": "Ben's Christmas Mod",
+	"description": "This is an example description! Tell everyone what your mod is about! lol",
+	"authors": [
+		"BennyMcCarthy"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/bens-christmas-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ben.christmasmod.BensChristmasMod"
+		],
+        "client": [
+            "net.ben.christmasmod.BensChristmasModClient"
+        ],
+		"fabric-datagen": [
+			"net.ben.christmasmod.BensChristmasModDataGenerator"
+		]
+	},
+	"mixins": [
+		"benschristmasmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "benschristmasmod:candy_cane_block"
+    }
+  ],
+  "result": {
+    "item": "benschristmasmod:candy_cane",
+    "count": 2
+  }
+}
