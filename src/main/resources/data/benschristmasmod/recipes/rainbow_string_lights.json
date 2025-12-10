@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "string_light",
+  "key": {
+    "I": {
+      "item": "minecraft:chain"
+    },
+    "*": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    },
+    "g": {
+      "item": "minecraft:lime_dye"
+    },
+    "b": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "pattern": [
+    " I ",
+    "r*b",
+    " g "
+  ],
+  "result": {
+    "count": 4,
+    "item": "benschristmasmod:rainbow_string_lights"
+  }
+}

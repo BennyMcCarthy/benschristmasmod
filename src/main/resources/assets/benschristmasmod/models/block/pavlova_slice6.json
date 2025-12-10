@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "benschristmasmod:block/pavlova_inner",
+		"2": "benschristmasmod:block/pavlova_side",
+		"3": "benschristmasmod:block/pavlova_top",
+		"particle": "benschristmasmod:block/pavlova_bottom"
+	},
+	"elements": [
+		{
+			"from": [13, 0, 1],
+			"to": [15, 8, 15],
+			"faces": {
+				"north": {"uv": [1, 8, 3, 16], "texture": "#2"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#2"},
+				"south": {"uv": [13, 8, 15, 16], "texture": "#2"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#1"},
+				"up": {"uv": [13, 1, 15, 15], "texture": "#3"},
+				"down": {"uv": [0, 0, 2, 14], "texture": "#missing"}
+			}
+		}
+	]
+}

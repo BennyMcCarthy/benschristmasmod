@@ -1,9 +1,57 @@
 {
   "item.benschristmasmod.candy_cane": "Candy Cane",
-  "item.benschristmasmod.gingerbread_man": "Gingerbread Man",
   "block.benschristmasmod.candy_cane_block": "Candy Cane Block",
-  "block.benschristmasmod.red_stocking": "Red Stocking",
+
+  "item.benschristmasmod.raw_gingerbread_man": "Raw Gingerbread Man",
+  "item.benschristmasmod.gingerbread_man": "Gingerbread Man",
+
+  "block.benschristmasmod.pavlova": "Pavlova",
+
+
+  "block.benschristmasmod.white_string_lights": "White String Lights",
+  "block.benschristmasmod.light_gray_string_lights": "Light Gray String Lights",
+  "block.benschristmasmod.gray_string_lights": "Gray String Lights",
+  "block.benschristmasmod.black_string_lights": "Black String Lights",
+  "block.benschristmasmod.brown_string_lights": "Brown String Lights",
+  "block.benschristmasmod.red_string_lights": "Red String Lights",
+  "block.benschristmasmod.orange_string_lights": "Orange String Lights",
+  "block.benschristmasmod.yellow_string_lights": "Yellow String Lights",
+  "block.benschristmasmod.lime_string_lights": "Lime String Lights",
+  "block.benschristmasmod.green_string_lights": "Green String Lights",
+  "block.benschristmasmod.cyan_string_lights": "Cyan String Lights",
+  "block.benschristmasmod.light_blue_string_lights": "Light Blue String Lights",
+  "block.benschristmasmod.blue_string_lights": "Blue String Lights",
+  "block.benschristmasmod.purple_string_lights": "Purple String Lights",
+  "block.benschristmasmod.magenta_string_lights": "Magenta String Lights",
+  "block.benschristmasmod.pink_string_lights": "Pink String Lights",
   "block.benschristmasmod.rainbow_string_lights": "Rainbow String Lights",
+
+  "block.benschristmasmod.white_stocking": "White Stocking",
+  "block.benschristmasmod.light_gray_stocking": "Light Gray Stocking",
+  "block.benschristmasmod.gray_stocking": "Gray Stocking",
+  "block.benschristmasmod.black_stocking": "Black Stocking",
+  "block.benschristmasmod.brown_stocking": "Brown Stocking",
+  "block.benschristmasmod.red_stocking": "Red Stocking",
+  "block.benschristmasmod.orange_stocking": "Orange Stocking",
+  "block.benschristmasmod.yellow_stocking": "Yellow Stocking",
+  "block.benschristmasmod.lime_stocking": "Lime Stocking",
+  "block.benschristmasmod.green_stocking": "Green Stocking",
+  "block.benschristmasmod.cyan_stocking": "Cyan Stocking",
+  "block.benschristmasmod.light_blue_stocking": "Light Blue Stocking",
+  "block.benschristmasmod.blue_stocking": "Blue Stocking",
+  "block.benschristmasmod.purple_stocking": "Purple Stocking",
+  "block.benschristmasmod.magenta_stocking": "Magenta Stocking",
+  "block.benschristmasmod.pink_stocking": "Pink Stocking",
+
+  "block.benschristmasmod.yellow_fairy_lights": "Yellow Fairy Lights",
+
+
+  "block.benschristmasmod.garland": "Garland",
+  "block.benschristmasmod.garland_bow": "Garland Bow",
+
+
+
+
 
   "itemgroup.christmas": "Ben's Christmas Mod"
 }

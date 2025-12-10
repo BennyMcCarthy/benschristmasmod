@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "benschristmasmod:block/pavlova"
+    },
+    "bites=1": {
+      "model": "benschristmasmod:block/pavlova_slice1"
+    },
+    "bites=2": {
+      "model": "benschristmasmod:block/pavlova_slice2"
+    },
+    "bites=3": {
+      "model": "benschristmasmod:block/pavlova_slice3"
+    },
+    "bites=4": {
+      "model": "benschristmasmod:block/pavlova_slice4"
+    },
+    "bites=5": {
+      "model": "benschristmasmod:block/pavlova_slice5"
+    },
+    "bites=6": {
+      "model": "benschristmasmod:block/pavlova_slice6"
+    }
+  }
+}

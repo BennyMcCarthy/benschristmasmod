@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "benschristmasmod:block/garland",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "benschristmasmod:block/garland"
+    },
+    "facing=south": {
+      "model": "benschristmasmod:block/garland",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "benschristmasmod:block/garland",
+      "y": 270
+    }
+  }
+}

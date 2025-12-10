@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "benschristmasmod:block/gray_stocking"
+    },
+    "facing=east": {
+      "model": "benschristmasmod:block/gray_stocking",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "benschristmasmod:block/gray_stocking",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "benschristmasmod:block/gray_stocking",
+      "y": 270
+    }
+  }
+}

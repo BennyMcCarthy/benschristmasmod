@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stocking",
+  "key": {
+    "w": {
+      "item": "minecraft:white_wool"
+    },
+    "#": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "pattern": [
+    "www",
+    " # ",
+    "## "
+  ],
+  "result": {
+    "item": "benschristmasmod:green_stocking"
+  }
+}

@@ -12,8 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     //    HELOO !!! OVER HERE !!!!!!          THE ITEMS ...:
-    public static final Item CANDY_CANE = registerItem("candy_cane", new Item(new FabricItemSettings()));
-    public static final Item GINGERBREAD_MAN = registerItem("gingerbread_man", new Item(new FabricItemSettings()));
+    public static final Item CANDY_CANE = registerItem("candy_cane", new Item(new FabricItemSettings().food(ModFoodComponents.CANDY_CANE)));
+    public static final Item GINGERBREAD_MAN = registerItem("gingerbread_man", new Item(new FabricItemSettings().food(ModFoodComponents.GINGERBREAD_MAN)));
+    public static final Item RAW_GINGERBREAD_MAN = registerItem("raw_gingerbread_man", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_GINGERBREAD_MAN)));
 
 
     private static Item registerItem(String name, Item item) {

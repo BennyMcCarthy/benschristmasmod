@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "benschristmasmod:block/red_stocking"
+    },
+    "facing=east": {
+      "model": "benschristmasmod:block/red_stocking",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "benschristmasmod:block/red_stocking",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "benschristmasmod:block/red_stocking",
+      "y": 270
     }
   }
 }

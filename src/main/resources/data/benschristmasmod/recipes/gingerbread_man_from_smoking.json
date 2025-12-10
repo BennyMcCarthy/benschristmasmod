@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 80,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "benschristmasmod:raw_gingerbread_man"
+  },
+  "result": "benschristmasmod:gingerbread_man"
+}

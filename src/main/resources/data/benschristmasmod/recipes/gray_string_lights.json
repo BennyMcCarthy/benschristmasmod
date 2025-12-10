@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "string_light",
+  "key": {
+    "I": {
+      "item": "minecraft:chain"
+    },
+    "*": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "#": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    " I ",
+    " * ",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "item": "benschristmasmod:gray_string_lights"
+  }
+}

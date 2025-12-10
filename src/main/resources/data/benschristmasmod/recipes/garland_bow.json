@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:sweet_berries"
+    },
+    "8": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "   ",
+    "#8#",
+    "   "
+  ],
+  "result": {
+    "item": "benschristmasmod:garland_bow"
+  }
+}
