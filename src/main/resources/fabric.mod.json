@@ -3,12 +3,12 @@
 	"id": "benschristmasmod",
 	"version": "${version}",
 	"name": "Ben's Christmas Mod",
-	"description": "This is an example description! Tell everyone what your mod is about! lol",
+	"description": "Festive holiday food, lights and decorations",
 	"authors": [
 		"BennyMcCarthy"
 	],
-	"license": "CC0-1.0",
-	"icon": "assets/bens-christmas-mod/icon.png",
+	"license": "All Rights Reserved",
+	"icon": "assets/benschristmasmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

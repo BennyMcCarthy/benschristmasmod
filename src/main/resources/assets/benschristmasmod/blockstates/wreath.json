@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "benschristmasmod:block/wreath",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "benschristmasmod:block/wreath"
+    },
+    "facing=south": {
+      "model": "benschristmasmod:block/wreath",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "benschristmasmod:block/wreath",
+      "y": 270
+    }
+  }
+}

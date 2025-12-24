@@ -3,8 +3,8 @@
 
 
   "block.benschristmasmod.white_string_lights": "White String Lights",
-  "block.benschristmasmod.light_gray_string_lights": "Light Gray String Lights",
-  "block.benschristmasmod.gray_string_lights": "Gray String Lights",
+  "block.benschristmasmod.light_gray_string_lights": "Light Grey String Lights",
+  "block.benschristmasmod.gray_string_lights": "Grey String Lights",
   "block.benschristmasmod.black_string_lights": "Black String Lights",
   "block.benschristmasmod.brown_string_lights": "Brown String Lights",
   "block.benschristmasmod.red_string_lights": "Red String Lights",
@@ -21,8 +21,8 @@
   "block.benschristmasmod.rainbow_string_lights": "Rainbow String Lights",
 
   "block.benschristmasmod.white_stocking": "White Stocking",
-  "block.benschristmasmod.light_gray_stocking": "Light Gray Stocking",
-  "block.benschristmasmod.gray_stocking": "Gray Stocking",
+  "block.benschristmasmod.light_gray_stocking": "Light Grey Stocking",
+  "block.benschristmasmod.gray_stocking": "Grey Stocking",
   "block.benschristmasmod.black_stocking": "Black Stocking",
   "block.benschristmasmod.brown_stocking": "Brown Stocking",
   "block.benschristmasmod.red_stocking": "Red Stocking",
@@ -50,7 +50,7 @@
 
   "block.benschristmasmod.pavlova": "Pavlova",
 
-
+  
   "item.benschristmasmod.raw_gingerbread_man": "Raw Gingerbread Man",
   "item.benschristmasmod.gingerbread_man": "Gingerbread Man"
 }

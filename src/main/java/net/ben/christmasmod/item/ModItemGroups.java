@@ -23,9 +23,12 @@ public class ModItemGroups {
 
                         entries.add(ModItems.CANDY_CANE);
                         entries.add(ModBlocks.CANDY_CANE_BLOCK);
+//                        entries.add(ModBlocks.CANDY_CANE_STAIRS);
 
                         entries.add(ModBlocks.GARLAND);
                         entries.add(ModBlocks.GARLAND_BOW);
+
+                        entries.add(ModBlocks.WREATH);
 
                         entries.add(ModBlocks.RAINBOW_STRING_LIGHTS);
                         entries.add(ModBlocks.WHITE_STRING_LIGHTS);

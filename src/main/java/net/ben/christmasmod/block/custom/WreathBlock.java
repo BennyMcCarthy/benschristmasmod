@@ -19,15 +19,15 @@ import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
 
 
-public class StockingBlock extends Block implements Waterloggable {
+public class WreathBlock extends Block implements Waterloggable {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    protected static final VoxelShape EAST_SHAPE = Block.createCuboidShape(0, 2, 2, 3, 14, 14);
-    protected static final VoxelShape WEST_SHAPE = Block.createCuboidShape(13, 2, 2, 16, 14, 14);
-    protected static final VoxelShape SOUTH_SHAPE = Block.createCuboidShape(2, 2, 0, 14, 14, 3);
-    protected static final VoxelShape NORTH_SHAPE = Block.createCuboidShape(2, 2, 13, 14, 14, 16);
+    protected static final VoxelShape EAST_SHAPE = Block.createCuboidShape(0, 4, 0, 3, 12, 16);
+    protected static final VoxelShape WEST_SHAPE = Block.createCuboidShape(13, 4, 0, 16, 12, 16);
+    protected static final VoxelShape SOUTH_SHAPE = Block.createCuboidShape(0, 4, 0, 16, 12, 3);
+    protected static final VoxelShape NORTH_SHAPE = Block.createCuboidShape(1.5, 0.5, 16, 14.5, 13.5, 16);
 
-    public StockingBlock(AbstractBlock.Settings settings) {
+    public WreathBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
     }
@@ -132,3 +132,9 @@ public class StockingBlock extends Block implements Waterloggable {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
 }
+
+
+
+
+
+

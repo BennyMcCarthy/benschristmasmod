@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "benschristmasmod:block/candy_cane_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "benschristmasmod:block/candy_cane_block"
+    },
+    "axis=z": {
+      "model": "benschristmasmod:block/candy_cane_block",
+      "x": 90
     }
   }
 }

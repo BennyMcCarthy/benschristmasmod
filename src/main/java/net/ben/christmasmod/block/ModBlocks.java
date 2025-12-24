@@ -1,17 +1,10 @@
 package net.ben.christmasmod.block;
 
 import net.ben.christmasmod.BensChristmasMod;
-import net.ben.christmasmod.block.custom.FairyLightBlock;
-import net.ben.christmasmod.block.custom.PavlovaBlock;
-import net.ben.christmasmod.block.custom.StockingBlock;
-import net.ben.christmasmod.block.custom.StringLightBlock;
-import net.ben.christmasmod.block.custom.GarlandBlock;
+import net.ben.christmasmod.block.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
@@ -169,30 +162,32 @@ public class ModBlocks {
 
 //    public static final Block YELLOW_FAIRY_LIGHTS = registerBlock(
 //            "yellow_fairy_lights",
-//            new FairyLightBlock(
-//                    FabricBlockSettings.create()
-//                            .noCollision()
-//                            .strength(0.2F)
-//                            .sounds(BlockSoundGroup.CHAIN)
-//                            .luminance(state -> 4)
-//                            .emissiveLighting(Blocks::always)
-//                            .pistonBehavior(PistonBehavior.DESTROY)
-//            )
-//    );
+//            new FairyLightBlock(FabricBlockSettings.create().noCollision().strength(0.2F).sounds(BlockSoundGroup.CHAIN).luminance(state -> 4).emissiveLighting(Blocks::always).pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block GARLAND = registerBlock(
             "garland",
             new GarlandBlock(FabricBlockSettings.create().noCollision().strength(0.3F).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque()));
+
 
     public static final Block GARLAND_BOW = registerBlock(
             "garland_bow",
             new GarlandBlock(FabricBlockSettings.create().noCollision().strength(0.3F).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque()));
 
 
+    public static final Block WREATH = registerBlock(
+            "wreath",
+            new WreathBlock(FabricBlockSettings.create().noCollision().strength(0.3F).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque()));
+
 
         public static final Block CANDY_CANE_BLOCK = registerBlock("candy_cane_block",
-                new Block(FabricBlockSettings.create().mapColor(MapColor.TERRACOTTA_WHITE).instrument(Instrument.BASEDRUM).sounds(BlockSoundGroup.CALCITE).strength(0.5F)));
+                new PillarBlock(FabricBlockSettings.create().mapColor(MapColor.TERRACOTTA_WHITE).instrument(Instrument.BASEDRUM).sounds(BlockSoundGroup.CALCITE).strength(0.5F)));
 
+//    public static final Block CANDY_CANE_STAIRS = registerBlock("candy_cane_stairs",
+//            new StairsBlock(ModBlocks.CANDY_CANE_STAIRS.getDefaultState(), FabricBlockSettings.create().mapColor(MapColor.TERRACOTTA_WHITE).instrument(Instrument.BASEDRUM).sounds(BlockSoundGroup.CALCITE).strength(0.5F)));
+
+//    public static final Block CANDY_CANE_STAIRS = registerBlock(
+//            "candy_cane_stairs",
+//            new CandyCaneStairsBlock(FabricBlockSettings.create().mapColor(MapColor.TERRACOTTA_WHITE).sounds(BlockSoundGroup.CALCITE).strength(0.5F)));
 
 
     public static final Block PAVLOVA = registerBlock("pavlova",
