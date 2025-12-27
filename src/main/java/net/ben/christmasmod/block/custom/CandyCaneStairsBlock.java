@@ -6,7 +6,7 @@ import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
-import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 
 public class CandyCaneStairsBlock extends Block implements Waterloggable {
-    public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
+    public static final EnumProperty<Direction> FACING = HorizontalFacingBlock.FACING;
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
     protected static final VoxelShape EAST_SHAPE = Block.createCuboidShape(0, 4, 0, 3, 12, 16);
     protected static final VoxelShape WEST_SHAPE = Block.createCuboidShape(13, 4, 0, 16, 12, 16);
@@ -48,22 +48,6 @@ public class CandyCaneStairsBlock extends Block implements Waterloggable {
 
             case WEST:
                 return WEST_SHAPE;
-        }
-    }
-
-
-    @Override
-    public BlockState getStateForNeighborUpdate(
-            BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos
-    ) {
-        if (direction.getOpposite() == state.get(FACING) && !state.canPlaceAt(world, pos)) {
-            return Blocks.AIR.getDefaultState();
-        } else {
-            if ((Boolean)state.get(WATERLOGGED)) {
-                world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-            }
-
-            return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
     }
 

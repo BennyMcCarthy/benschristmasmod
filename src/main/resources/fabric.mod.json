@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "benschristmasmod",
-	"version": "${version}",
+	"version": "1.21.11",
 	"name": "Ben's Christmas Mod",
 	"description": "Festive holiday food, lights and decorations",
 	"authors": [
@@ -16,17 +16,14 @@
 		],
         "client": [
             "net.ben.christmasmod.BensChristmasModClient"
-        ],
-		"fabric-datagen": [
-			"net.ben.christmasmod.BensChristmasModDataGenerator"
-		]
+        ]
 	},
 	"mixins": [
 		"benschristmasmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
-		"minecraft": "~1.20.1",
+		"minecraft": "1.21.11",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

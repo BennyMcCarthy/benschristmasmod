@@ -50,24 +50,6 @@ public class PavlovaBlock extends Block {
         return BITES_TO_SHAPE[state.get(BITES)];
     }
 
-    @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        ItemStack itemStack = player.getStackInHand(hand);
-        Item item = itemStack.getItem();
-
-        if (world.isClient) {
-            if (tryEat(world, pos, state, player).isAccepted()) {
-                return ActionResult.SUCCESS;
-            }
-
-            if (itemStack.isEmpty()) {
-                return ActionResult.CONSUME;
-            }
-        }
-
-        return tryEat(world, pos, state, player);
-    }
-
     protected static ActionResult tryEat(WorldAccess world, BlockPos pos, BlockState state, PlayerEntity player) {
         if (!player.canConsume(false)) {
             return ActionResult.PASS;
@@ -87,14 +69,6 @@ public class PavlovaBlock extends Block {
         }
     }
 
-    @Override
-    public BlockState getStateForNeighborUpdate(
-            BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos
-    ) {
-        return direction == Direction.DOWN && !state.canPlaceAt(world, pos)
-                ? Blocks.AIR.getDefaultState()
-                : super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
-    }
 
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
@@ -106,10 +80,6 @@ public class PavlovaBlock extends Block {
         builder.add(BITES);
     }
 
-    @Override
-    public int getComparatorOutput(BlockState state, World world, BlockPos pos) {
-        return getComparatorOutput((Integer)state.get(BITES));
-    }
 
     public static int getComparatorOutput(int bites) {
         return (7 - bites) * 2;
@@ -120,8 +90,4 @@ public class PavlovaBlock extends Block {
         return true;
     }
 
-    @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
-        return false;
-    }
 }

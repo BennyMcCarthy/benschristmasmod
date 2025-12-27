@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup CHRISTMAS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(BensChristmasMod.MOD_ID, "christmas_group"),
+            Identifier.of(BensChristmasMod.MOD_ID, "christmas_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.christmas"))
                     .icon(() -> new ItemStack(ModItems.GINGERBREAD_MAN)).entries((displayContext, entries) -> {
 
@@ -27,8 +27,6 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.GARLAND);
                         entries.add(ModBlocks.GARLAND_BOW);
-
-                        entries.add(ModBlocks.WREATH);
 
                         entries.add(ModBlocks.RAINBOW_STRING_LIGHTS);
                         entries.add(ModBlocks.WHITE_STRING_LIGHTS);
