@@ -1,6 +1,8 @@
-# Bens Christmas Mod
+# Ben's Christmas Mod
 
-1.21.1 Fabric christmas mod
+Minecraft Christmas mod - Fabric 1.20.1 branch (main)
 
-&nbsp;lol
+
+
+https://modrinth.com/mod/bens-christmas-mod
 
